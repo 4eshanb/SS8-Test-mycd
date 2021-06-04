@@ -30,40 +30,40 @@ To run the python version:
 
 Tests:
 
-mycd / abc
+mycd / abc\
 /abc
 
-mycd /abc/def z
+mycd /abc/def z\
 /abc/def/z
 
-mycd /abc/def ..
+mycd /abc/def ..\
 /abc
 
-mycd /abc/def /abc
+mycd /abc/def /abc\
 /abc
 
-mycd /abc/def /abc/ghi
+mycd /abc/def /abc/ghi\
 /abc/ghi
 
-mycd /abc/def ../..
+mycd /abc/def ../..\
 /
 
-mycd /abc/def ../../..
+mycd /abc/def ../../..\
 /
 
-mycd /abc/def .
+mycd /abc/def .\
 /abc/def
 
-mycd /abc/def ..klm
+mycd /abc/def ..klm\
 ..klm: No such file or directory
 
-mycd /abc/def //////
+mycd /abc/def //////\
 /
 
-mycd /abc/def ......
+mycd /abc/def ......\
 ......: No such file or directory
 
-mycd /abc/def ../ghi///../def/z/.
+mycd /abc/def ../ghi///../def/z/.\
 /abc/def/z
 
 
