@@ -64,6 +64,8 @@ string processNewPath(HashTable table, char *path)
         copy.append(": No such file or directory");
         return copy;
     }
+    if (ret_path == "")
+        ret_path.append("/");
 
     return ret_path;
 }
@@ -80,6 +82,7 @@ string printPath(HashTable table, string curr_path, string new_path)
     }
 
     char *token = strtok(new_path_cstr, "/");
+    cout << token << endl;
 
     while (token != NULL)
     {
