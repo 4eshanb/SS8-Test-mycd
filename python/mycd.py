@@ -1,5 +1,7 @@
 def process_path(table, curr_path, new_path):
-    filtered_ls = filter(None, new_path.split('/'))
+    filtered_ls = list(filter(None, new_path.split('/')))
+    if filtered_ls == []:
+        return "/"
     res_path = ""
     for dir in filtered_ls:
         if dir == "..":
@@ -21,11 +23,12 @@ def process_path(table, curr_path, new_path):
                 curr_path += "/" + dir
             elif curr_path == "/":
                 curr_path += dir
-
-    res_path = curr_path
+    
+    if res_path == "":
+        res_path = curr_path
 
     if hash(res_path) not in table:
-        return res_path + ": No such file or directory"
+        return new_path + ": No such file or directory"
 
     return res_path
 
@@ -41,7 +44,7 @@ def main():
         inp = input("# ")
         command, arg1, arg2 = inp.split(" ")
         if command != "mycd":
-            print("Use mycd command\n")
+            print("please use mycd command\n")
             continue
 
         if hash(arg1) not in table:
