@@ -81,7 +81,7 @@ here are the directories:\
 /mno/pqr\
 /mno/stu\
 /mno/wxy\
-/abc/def/z\
+/abc/def/z
 
 
 
