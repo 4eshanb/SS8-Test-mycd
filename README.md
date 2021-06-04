@@ -66,4 +66,23 @@ mycd /abc/def ......\
 mycd /abc/def ../ghi///../def/z/.\
 /abc/def/z
 
+ls /abc/def ..\
+please use mycd command
+
+mycd jhkgj /abc\
+first argument not valid\
+here are the directories:\
+/
+/abc
+/mno
+/abc/def
+/abc/ghi
+/abc/jkl
+/mno/pqr
+/mno/stu
+/mno/wxy
+/abc/def/z
+
+
+
 
