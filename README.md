@@ -28,7 +28,7 @@ To run the C++ version:
 To run the python version:
   python3 mycd.py
 
-Tests:
+Tests (result printed below each test):
 
 mycd / abc\
 /abc
@@ -72,16 +72,16 @@ please use mycd command
 mycd jhkgj /abc\
 first argument not valid\
 here are the directories:\
-/
-/abc
-/mno
-/abc/def
-/abc/ghi
-/abc/jkl
-/mno/pqr
-/mno/stu
-/mno/wxy
-/abc/def/z
+/\
+/abc\
+/mno\
+/abc/def\
+/abc/ghi\
+/abc/jkl\
+/mno/pqr\
+/mno/stu\
+/mno/wxy\
+/abc/def/z\
 
 
 
