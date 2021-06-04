@@ -23,10 +23,10 @@ Multiple consecutive slashes are treated as equivalent to a single one.
 
 <ins>To run the C++ version:</ins>\
   g++ mycd.cpp hashtable.cpp -o mycd\
-  ./mycd\
+  ./mycd
 
 <ins>To run the python version:</ins>\
-  python3 mycd.py\
+  python3 mycd.py
 
 Tests (result printed below each test):
 
