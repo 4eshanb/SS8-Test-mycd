@@ -21,12 +21,12 @@ from the current one.
 4) A single forward slash "/" indicates a root directory.
 Multiple consecutive slashes are treated as equivalent to a single one.
 
-To run the C++ version:
-  g++ mycd.cpp hashtable.cpp -o mycd
-  ./mycd
+<ins>To run the C++ version:</ins>\
+  g++ mycd.cpp hashtable.cpp -o mycd\
+  ./mycd\
 
-To run the python version:
-  python3 mycd.py
+<ins>To run the python version:</ins>\
+  python3 mycd.py\
 
 Tests (result printed below each test):
 
