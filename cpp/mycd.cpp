@@ -82,7 +82,6 @@ string printPath(HashTable table, string curr_path, string new_path)
     }
 
     char *token = strtok(new_path_cstr, "/");
-    cout << token << endl;
 
     while (token != NULL)
     {
